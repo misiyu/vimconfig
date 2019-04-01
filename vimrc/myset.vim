@@ -1,9 +1,9 @@
 imap ( ()<left>
 imap [ []<left>
 imap { {}<left>
-imap " ""<left>
-imap ' ''<left>
-imap < <><left>
+imap " "<ESC>vypi
+imap ' '<ESC>vypi
+
 nmap a ggVG
 map b  :bn<CR>
 vmap y "+y
