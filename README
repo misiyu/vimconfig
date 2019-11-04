@@ -10,3 +10,10 @@ https://vimawesome.com/
 6、vim-surround
 7、NERD_tree
 
+脚本：
+1、vimloadtags.sh 为加载tags文件的脚本，可以链接到/usr/bin目录下：
+  命令： sudo ln -s /<>/vimloadtags.sh /usr/bin/vimloadtags
+  源文件要写绝对路径！
+  
+  该脚本用于搜索当前目录，到根目录，一层层往上搜索，直到搜索到一个tags文件，再把搜索到的tags文件替换掉 ~/.vimrc中含有tags单词的一行。
+  
